@@ -1,0 +1,38 @@
+{
+	"name": "Minimal API With EF Core (Microsoft Learn)",
+	"image": "mcr.microsoft.com/devcontainers/dotnet:1-8.0-bookworm",
+	"features": {
+		"ghcr.io/devcontainers/features/dotnet:2": {
+			"version": "8.0"
+		},
+		"ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {},
+		"ghcr.io/devcontainers/features/azure-cli:1": {},
+		"ghcr.io/devcontainers/features/docker-from-docker:1.5.0": {},
+		"ghcr.io/devcontainers/features/github-cli:1": {
+			"version": "2"
+		}
+	},
+	"forwardPorts": [
+		5000
+	],
+	"portsAttributes": {
+		"5000": {
+			"protocol": "http",
+			"label": "PizzaStore API"
+		}
+	},
+	"postCreateCommand": "bash ./.devcontainer/postCreateCommand.sh",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.copilot",
+				"ms-dotnettools.csdevkit",
+				"ms-dotnettools.csharp",
+				"ms-vscode.vscode-node-azure-pack",
+				"github.vscode-github-actions",
+				"ms-dotnettools.csdevkit",
+				"ms-kubernetes-tools.vscode-kubernetes-tools"
+			]
+		}
+	}
+}
