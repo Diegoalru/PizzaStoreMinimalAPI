@@ -31,7 +31,8 @@
 				"ms-vscode.vscode-node-azure-pack",
 				"github.vscode-github-actions",
 				"ms-dotnettools.csdevkit",
-				"ms-kubernetes-tools.vscode-kubernetes-tools"
+				"ms-kubernetes-tools.vscode-kubernetes-tools",
+				"humao.rest-client"
 			]
 		}
 	}

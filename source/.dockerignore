@@ -1,0 +1,6 @@
+PizzaStore/Pizzas.db
+**/[Oo]bj/
+**/[Bb]in/
+**/Dockerfile*
+**/.dockerignore*
+**/*.user
